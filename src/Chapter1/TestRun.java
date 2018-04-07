@@ -9,8 +9,8 @@ public class TestRun {
 		b.setName("B");
 		classC c = new classC(semaphoreTest1);
 		c.setName("C");
-		a.start();
 		b.start();
+		a.start();
 		c.start();
 	}
 
