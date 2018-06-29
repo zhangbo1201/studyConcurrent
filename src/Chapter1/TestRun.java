@@ -1,6 +1,7 @@
 package Chapter1;
 
 public class TestRun {
+	public static final Integer a1 = null;
 	public static void main(String[] args) {
 		SemaphoreTest1 semaphoreTest1 = new SemaphoreTest1();
 		classA a = new classA(semaphoreTest1);
@@ -12,6 +13,6 @@ public class TestRun {
 		b.start();
 		a.start();
 		c.start();
+		
 	}
-
 }
